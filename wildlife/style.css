@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #02160b;
+}
+
+.galava {
+    display: flex;
+    padding-top: 40px;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.zxcvbn {
+    background-image: url(./123/Rectangle.jpg);
+    max-width: 1440px;
+    width: 100%;
+    height: 780px;
+}
+
+/* Logo */
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    width: 100%;
+    height: 60px;
+}
+
+.qaz {
+    background-image: url(./123/path0.png);
+    width: 68.2px;
+    height: 60px;
+}
+
+.qaz2 {
+    width: 155px;
+    height: 60px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: white;
+    justify-content: space-between;
+}
+
+/* Navigation */
+
+.poisk {
+    background-image: url(./123/Vector.svg);
+    width: 23px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navig {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navig2 {
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navig3 {
+    display: flex;
+    align-items: center;
+}
+
+.navig4 {
+    font-family: Gilroy-SemiBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.auto {
+    display: flex;
+    align-items: center;
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+}
+
+.auto2 {
+    font-family: Roboto;
+    color: #FFF;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 27px;
+    margin: auto;
+}
+.h1 {
+    display: none;
+}
